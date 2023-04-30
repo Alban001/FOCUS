@@ -2,7 +2,7 @@ import React from 'react'
 import {View, Text, StyleSheet, FlatList} from 'react-native'
 import {colors} from '../utils/colors'
 import {Spacing} from '../utils/sizes'
-
+console.log('hey')
 export const FocusHistory = ({history}) =>{
        if(!history || !history.length) return <Text style={styles.title}>Things we've focused on:</Text>;
 
